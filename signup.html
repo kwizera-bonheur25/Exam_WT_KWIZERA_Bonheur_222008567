@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sign-Up Form</title>
+    <link rel="stylesheet" type="text/css" href="./login.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Sign-Up</h2>
+        <form action="signup.php" method="POST" id="signUpForm">
+            <div style="background-color: red; color: white;" id="error"></div>
+
+            <label for="username">User Name</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="fname">Email</label>
+            <input type="text" id="email" name="email" required>
+
+            <label for="lname">Password</label>
+            <input type="text" id="password" name="password" required>
+
+            <label for="id_number">FIRST NAME</label>
+            <input type="text" id="firstname" name="firstname" required>
+
+            <label for="phone">LAST NAME</label>
+            <input type="text" id="lastname" name="lastname" required>
+
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" name="dob" required>
+
+            <input type="submit" name="signup" value="Sign Up">
+        </form>
+    </div>
+    <script src="signup.js"></script>
+</body>
+
+</html>
